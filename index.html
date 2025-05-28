@@ -3,18 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Página personal de Hernán Echeverría">
+    <title>Página Personal de Hernán</title>
 </head>
 <body>
-    <h1>Hey Stalker! 👋</h1>
+    <header>
+        <h1>Hey Stalker! 👋</h1>
         <img src="Imagenes/Art Hello GIF by Li-Anne Dias.gif" alt="Waving Robot">
-    <h3>Unete a la buena onda 🤙</h3>
-    <p>Si quieres saber más de mí, puedes seguirme en mis redes sociales:</p>
-    <ul>
-        <li><a href="https://www.instagram.com/hernanecheverria__/" target="_blank">Instagram</a></li>
-        <li><a href="https://x.com/hernan_eem" target="_blank">Twitter</a></li>
-        <li><a href="https://www.linkedin.com/in/heem/" target="_blank">LinkedIn</a></li>
-        <li><a href="https://github.com/hernaneem" target="_blank">GitHub</a></li>
-    </ul>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Sobre mí</h2>
+            <p>¡Hola! Soy Hernán, un entusiasta de la tecnología y el desarrollo web. Estoy constantemente aprendiendo y buscando nuevos desafíos.</p>
+            
+            <h3>Unete a la buena onda 🤙</h3>
+            <p>Si quieres saber más de mí, puedes seguirme en mis redes sociales:</p>
+            <ul>
+                <li><a href="https://www.instagram.com/hernanecheverria__/" target="_blank">Instagram</a></li>
+                <li><a href="https://x.com/hernan_eem" target="_blank">Twitter</a></li>
+                <li><a href="https://www.linkedin.com/in/heem/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/hernaneem" target="_blank">GitHub</a></li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Mis proyectos</h2>
+            <p>Actualmente estoy trabajando en varios proyectos que puedes encontrar en mi GitHub. ¡No dudes en revisar mi repositorio!</p>
+            <ol>
+                <li>Proyecto Web Personal</li>
+                <li>MILU: AI Companion y tomador de notas para psicólogos</li>
+                <li>HR AI Agent Organization: AaaS para organizaciones</li>
+            </ol>
+        </section>
+        
+        <section>
+            <h2>Contáctame</h2>
+            <p>Si estás interesado en colaborar o tienes alguna pregunta, no dudes en escribirme:</p>
+            <form>
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Hernán Echeverría. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
